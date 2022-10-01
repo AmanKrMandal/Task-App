@@ -94,9 +94,10 @@ https://todo-work-aman.herokuapp.com/work/${id}
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Black Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Blue Color | ![#0000ff](https://via.placeholder.com/10/0000ff?text=+) #0000ff |
-| Sky Color | ![#00ffff](https://via.placeholder.com/10/00ffff?text=+) #00ffff |
+| Black Color | ![](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Blue Color | ![](https://via.placeholder.com/10/0000ff?text=+) #0000ff |
+| Sky Color | ![](https://via.placeholder.com/10/00ffff?text=+) #00ffff |
+
 
 ## Known Bugs
 
