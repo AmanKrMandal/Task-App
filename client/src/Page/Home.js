@@ -17,7 +17,7 @@ function Home() {
   };
 
   const getAllWorks = async () => {
-    let result = await fetch("https://todo-work-aman.herokuapp.com/works", {
+    let result = await fetch("https://aman-task-apps.onrender.com/works", {
       method: "get",
       headers: {
         "Content-Type": "application/json",
