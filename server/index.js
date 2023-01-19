@@ -15,7 +15,15 @@ const app = express();
 app.use(express.json());
 
 //error fix by using cors
-app.use(cors());
+app.use(cors(
+{
+    origin: ["http://localhost:3000/", "https://task-nu-neon.vercel.app/login"],
+    methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "Access-Control-Allow-Header":
+      "Origin, X-Requested-With, Content-Type, Accept",
+    credentials: true,
+  }
+));
 
 // register
 app.post("/register", async (req, resp) => {
