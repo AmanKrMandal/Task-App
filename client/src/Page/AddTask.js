@@ -64,7 +64,7 @@ function AddTask() {
 
   const AddDoc = async (e) => {
     e.preventDefault();
-    let result = await fetch("https://todo-work-aman.herokuapp.com/add-works", {
+    let result = await fetch("https://aman-task-apps.onrender.com/add-works", {
       method: "post",
       body: JSON.stringify(dataDoc),
       headers: {
