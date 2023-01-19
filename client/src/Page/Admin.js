@@ -44,7 +44,7 @@ function Admin() {
   const deleteDoc = async (id) => {
     // console.log("idd", id);
     let result = await fetch(
-      `https://todo-work-aman.herokuapp.com/work/${id}`,
+      `https://aman-task-apps.onrender.com/work/${id}`,
       {
         method: "delete",
         headers: {
