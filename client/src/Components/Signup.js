@@ -15,7 +15,7 @@ function Signup() {
     // console.log(name, email, password, date);
     const data = { name, email, password, date};
     let result = await fetch(
-      "https://todo-work-aman.herokuapp.com/register",
+      "https://aman-task-apps.onrender.com/register",
       {
         method: "post",
         body: JSON.stringify(data),
