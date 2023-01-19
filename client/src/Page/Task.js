@@ -31,7 +31,7 @@ function Task() {
 
   const getAllWorks = async () => {
     let result = await fetch(
-      `https://todo-work-aman.herokuapp.com/work/${id}`,
+      `https://aman-task-apps.onrender.com/work/${id}`,
       {
         method: "get",
         headers: {
@@ -56,7 +56,7 @@ function Task() {
     const id = oneTask._id;
     // console.log("Id", id);
     let result = await fetch(
-      `https://todo-work-aman.herokuapp.com/work/${id}`,
+      `https://aman-task-apps.onrender.com/work/${id}`,
       {
         method: "put",
         body: JSON.stringify(dataDoc),
