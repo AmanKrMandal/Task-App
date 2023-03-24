@@ -1,7 +1,7 @@
 
 # LOGO
 
-![Logo](https://www.linkpicture.com/q/aaaa.png)
+![Logo]()
 
 
 # TODO Task
